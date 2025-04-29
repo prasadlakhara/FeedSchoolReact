@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('../../public/assets/fonts/Manrope-Bold.eot');
+    src: url('../../public/assets/fonts/Manrope-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/Manrope-Bold.woff2') format('woff2'),
+        url('../../public/assets/fonts/Manrope-Bold.woff') format('woff'),
+        url('../../public/assets/fonts/Manrope-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../../public/assets/fonts/Manrope-ExtraLight.eot');
+    src: url('../../public/assets/fonts/Manrope-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/Manrope-ExtraLight.woff2') format('woff2'),
+        url('../../public/assets/fonts/Manrope-ExtraLight.woff') format('woff'),
+        url('../../public/assets/fonts/Manrope-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../../public/assets/fonts/Manrope-Medium.eot');
+    src: url('../../public/assets/fonts/Manrope-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/Manrope-Medium.woff2') format('woff2'),
+        url('../../public/assets/fonts/Manrope-Medium.woff') format('woff'),
+        url('../../public/assets/fonts/Manrope-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../../public/assets/fonts/Manrope-SemiBold.eot');
+    src: url('../../public/assets/fonts/Manrope-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/Manrope-SemiBold.woff2') format('woff2'),
+        url('../../public/assets/fonts/Manrope-SemiBold.woff') format('woff'),
+        url('../../public/assets/fonts/Manrope-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../../public/assets/fonts/Manrope-Light.eot');
+    src: url('../../public/assets/fonts/Manrope-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/Manrope-Light.woff2') format('woff2'),
+        url('../../public/assets/fonts/Manrope-Light.woff') format('woff'),
+        url('../../public/assets/fonts/Manrope-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../../public/assets/fonts/Manrope-Regular.eot');
+    src: url('../../public/assets/fonts/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/Manrope-Regular.woff2') format('woff2'),
+        url('../../public/assets/fonts/Manrope-Regular.woff') format('woff'),
+        url('../../public/assets/fonts/Manrope-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../../public/assets/fonts/Manrope-ExtraBold.eot');
+    src: url('../../public/assets/fonts/Manrope-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/Manrope-ExtraBold.woff2') format('woff2'),
+        url('../../public/assets/fonts/Manrope-ExtraBold.woff') format('woff'),
+        url('../../public/assets/fonts/Manrope-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'Helvetica Rounded LT Std';
+    src: url('../../public/assets/fonts/HelveticaRoundedLTStd-BlkO.eot');
+    src: local('Helvetica Rounded LT Std Black Oblique'), local('HelveticaRoundedLTStd-BlkO'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BlkO.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BlkO.woff2') format('woff2'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BlkO.woff') format('woff'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BlkO.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Rounded LT Std';
+    src: url('../../public/assets/fonts/HelveticaRoundedLTStd-Black.eot');
+    src: local('Helvetica Rounded LT Std Black'), local('HelveticaRoundedLTStd-Black'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-Black.woff2') format('woff2'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-Black.woff') format('woff'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Rounded LT Std';
+    src: url('../../public/assets/fonts/HelveticaRoundedLTStd-BdCn.eot');
+    src: local('Helvetica Rounded LT Std Bold Condensed'), local('HelveticaRoundedLTStd-BdCn'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BdCn.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BdCn.woff2') format('woff2'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BdCn.woff') format('woff'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BdCn.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Rounded LT Std';
+    src: url('../../public/assets/fonts/HelveticaRoundedLTStd-BdCnO.eot');
+    src: local('Helvetica Rounded LT Std Bold Condensed Oblique'), local('HelveticaRoundedLTStd-BdCnO'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BdCnO.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BdCnO.woff2') format('woff2'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BdCnO.woff') format('woff'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BdCnO.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Rounded LT Std';
+    src: url('../../public/assets/fonts/HelveticaRoundedLTStd-BdO.eot');
+    src: local('Helvetica Rounded LT Std Bold Oblique'), local('HelveticaRoundedLTStd-BdO'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BdO.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BdO.woff2') format('woff2'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BdO.woff') format('woff'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-BdO.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Rounded LT Std';
+    src: url('../../public/assets/fonts/HelveticaRoundedLTStd-Bd.eot');
+    src: local('Helvetica Rounded LT Std Bold'), local('HelveticaRoundedLTStd-Bd'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-Bd.eot?#iefix') format('embedded-opentype'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-Bd.woff2') format('woff2'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-Bd.woff') format('woff'),
+        url('../../public/assets/fonts/HelveticaRoundedLTStd-Bd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+h1, h2{
+    font-family: 'Helvetica Rounded LT Std', sans-serif;
+}
+
+h3, h4, h5, h6{
+    font-family: 'Manrope', sans-serif !important;
+    font-weight: 600 !important;
+}

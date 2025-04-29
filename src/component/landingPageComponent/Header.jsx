@@ -19,12 +19,12 @@ function Header () {
               <form className="d-flex" role="search">
                 <button className="btn btn-outline-primary btn-theme-font me-2"
                   type="button" data-bs-toggle="modal"
-                  data-bs-target="#LoginModal"><i className="ph ph-lock-simple"></i>
+                  data-bs-target="#LoginModal"><i className="ph ph-lock-simple"></i>&nbsp;
 
                   Login</button>
                 <button className="btn btn-primary btn-theme-font" type="button"
                   data-bs-toggle="modal" data-bs-target="#RegisterModal"><i
-                    className="ph ph-user-plus"></i>
+                    className="ph ph-user-plus"></i>&nbsp;
 
                   Register</button>
               </form>

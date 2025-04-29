@@ -27,12 +27,12 @@ function Index() {
           <div className="d-flex gap-2 justify-content-center mt-5">
             <button className="btn btn-outline-primary btn-theme-font" type="button"
               data-bs-toggle="modal" data-bs-target="#LoginModal"><i
-                className="ph ph-lock-simple"></i>
+                className="ph ph-lock-simple"></i>&nbsp;
 
               Login</button>
             <button className="btn btn-primary btn-theme-font" type="button"
               data-bs-toggle="modal" data-bs-target="#RegisterModal"><i
-                className="ph ph-user-plus"></i>
+                className="ph ph-user-plus"></i>&nbsp;
 
               Register</button>
           </div>
