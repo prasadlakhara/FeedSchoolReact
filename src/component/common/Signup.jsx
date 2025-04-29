@@ -81,7 +81,7 @@ function Signup() {
                     <div className="mb-3 password-wrapper">
                       <label for="parentconfirmpassword" className="form-label">Confirm Password</label>
                       <input type="password" className="form-control" id="parentconfirmpassword"/>
-                      <button type="button" className="toggle-password" onclick={togglePassword('parentconfirmpassword', this)}>
+                      <button type="button" className="toggle-password" onclick="togglePassword('parentconfirmpassword', this)">
                         <i className="ph ph-eye-slash"></i>
                       </button>
                     </div>
