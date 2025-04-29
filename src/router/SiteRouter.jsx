@@ -5,14 +5,14 @@ import LandingPageLayout from "@/layout/LandingPageLayout.jsx";
 import ManagementSchoolLayout from "@/layout/ManagementSchoolLayout.jsx";
 import ParentLayout from "@/layout/ParentLayout.jsx";
 import RestaurantLayout from "@/layout/RestaurantLayout.jsx";
-import Index from "@/component/landingPageComponent/Index";
+import LandingPage from "../component/landingPageComponent/LandingPage";
 function SiteRouter (){
     return(
         
         <>
             <Routes>
                 <Route path="" element={<LandingPageLayout />} >
-                    <Route index element={<Index />} />
+                    <Route index element={<LandingPage />} />
                    
                 </Route>
                 <Route path="school"  element={<ManagementSchoolLayout />} /> 

@@ -13,7 +13,7 @@ function Signin() {
                 <label for="exampleInputEmail1" className="form-label">Email
                   address</label>
                 <input type="email" className="form-control" id="exampleInputEmail1"
-                  aria-describedby="emailHelp" />
+                  aria-describedby="emailHelp" placeholder="youremail@gmail.com" />
                 <div id="emailHelp" className="form-text">We'll never share your
                   email with anyone else.</div>
               </div>
@@ -25,7 +25,7 @@ function Signin() {
                     className="text-dark">Forgot Password</a>
                 </div>
                 <input type="password" className="form-control"
-                  id="exampleInputPassword1" />
+                  id="exampleInputPassword1" placeholder="••••••" />
               </div>
               <div className="d-grid gap-2">
                 <button type="submit" className="btn btn-primary">login</button>

@@ -1,3 +1,6 @@
+@import './style/_fonts.css';
+@import './style//_icon_fonts.css';
+
 :root {
     /* Primary Colors */
     --primary-50: #e6f0f9;
