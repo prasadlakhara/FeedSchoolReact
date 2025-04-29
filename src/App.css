@@ -1,0 +1,396 @@
+:root {
+    /* Primary Colors */
+    --primary-50: #e6f0f9;
+    --primary-100: #b0d1ec;
+    --primary-200: #8abae3;
+    --primary-300: #549bd7;
+    --primary-400: #3388cf;
+    --primary-500: #006ac3;
+    --primary-600: #0060b1;
+    --primary-700: #004b8a;
+    --primary-800: #003a6b;
+    --primary-900: #002d52;
+  
+    /* Secondary Colors */
+    --secondary-50: #f0f9ee;
+    --secondary-100: #d1ebcc;
+    --secondary-200: #bbe2b3;
+    --secondary-300: #9cd490;
+    --secondary-400: #89cc7a;
+    --secondary-500: #6bbf59;
+    --secondary-600: #61ae51;
+    --secondary-700: #4c883f;
+    --secondary-800: #3b6931;
+    --secondary-900: #2d5025;
+  
+    /* Grey Colors */
+    --grey-50: #fbfbfb;
+    --grey-100: #f2f2f2;
+    --grey-200: #ececec;
+    --grey-300: #e3e3e3;
+    --grey-400: #dddddd;
+    --grey-500: #d5d5d5;
+    --grey-600: #c2c2c2;
+    --grey-700: #979797;
+    --grey-800: #757575;
+    --grey-900: #595959;
+  
+    /* Text Dark */
+    --text-dark-50: #e9e9e9;
+    --text-dark-100: #bababa;
+    --text-dark-200: #999999;
+    --text-dark-300: #6a6a6a;
+    --text-dark-400: #4d4d4d;
+    --text-dark-500: #212121;
+    --text-dark-600: #1e1e1e;
+    --text-dark-700: #171717;
+    --text-dark-800: #121212;
+    --text-dark-900: #0e0e0e;
+  
+    /* Warning Colors */
+    --warning-50: #fff9e6;
+    --warning-100: #ffecb2;
+    --warning-200: #ffe28d;
+    --warning-300: #ffd559;
+    --warning-400: #ffcd39;
+    --warning-500: #ffc107;
+    --warning-600: #e8b006;
+    --warning-700: #b58905;
+    --warning-800: #8c6a04;
+    --warning-900: #6b5103;
+  
+    /* Danger Colors */
+    --danger-50: #fcebec;
+    --danger-100: #f4c0c5;
+    --danger-200: #efa2a9;
+    --danger-300: #e87882;
+    --danger-400: #e35d6a;
+    --danger-500: #dc3545;
+    --danger-600: #c8303f;
+    --danger-700: #9c2631;
+    --danger-800: #791d26;
+    --danger-900: #5c161d;
+  
+    /* White Color */
+    --white: #ffffff;
+  }
+  
+  
+  body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-dark-500) !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+  }
+  
+  
+  /* icon font sizes */
+  .ph-xs {
+    font-size: 12px;
+  }
+  
+  .ph-sm {
+    font-size: 16px;
+  }
+  
+  .ph-md {
+    font-size: 24px;
+  }
+  
+  .ph-lg {
+    font-size: 32px;
+  }
+  
+  .ph-xl {
+    font-size: 48px;
+  }
+  
+  
+  .text-primary {
+    color: var(--primary-500) !important;
+  }
+  
+  .text-secondary {
+    color: var(--secondary-500) !important;
+  }
+  
+  .text-dark {
+    color: var(--text-dark-500) !important;
+  }
+  
+  .text-dark-200 {
+    color: var(--text-dark-200);
+  }
+  
+  .btn-theme-font {
+    font-family: 'Helvetica Rounded LT Std', sans-serif;
+  }
+  
+  .btn {
+    border-radius: 12px !important;
+  }
+  
+  .btn-outline {
+    color: var(--text-dark-500) !important;
+    background-color: transparent !important;
+    border-radius: 0.75rem 0px 0px 0.75rem !important;
+    border: 1px solid var(--grey-400) !important;
+  }
+  
+  .btn-primary {
+    color: var(--white) !important;
+    background-color: var(--primary-500) !important;
+  }
+  
+  .btn-outline-primary {
+    color: var(--primary-500) !important;
+    background-color: transparent !important;
+    border: 1px solid var(--primary-500) !important;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-primary:hover {
+    color: var(--white) !important;
+    background-color: var(--primary-500) !important;
+    border: 1px solid var(--primary-500) !important;
+  }
+  
+  .mobile-number-input-group .form-control {
+    border-radius: 0rem 0.75rem 0.75rem 0rem !important;
+  }
+  
+  .form-control {
+    border-radius: 0.75rem !important;
+  }
+  .form-control::placeholder {
+    color: var(--text-dark-100) !important;
+  }
+  .form-control:focus{
+    box-shadow: unset !important;
+    border: 1px solid var(--primary-100) !important;
+  }
+  
+  .form-label{
+    font-size: 0.875rem !important;
+    margin-bottom: 0.125rem !important;
+    font-weight: 500 !important;
+  }
+  
+  .role-register-form{
+    max-height: 300px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+  }
+  
+  .parent-registration-form::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  .parent-registration-form > * {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .password-wrapper .toggle-password {
+    position: absolute;
+    top: 70%;
+    right: 12px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #888;
+  }
+  .password-wrapper .toggle-password:focus {
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  
+  
+  .btn-link {
+    text-decoration: none !important;
+  }
+  
+  
+  .title-font {
+    font-size: 3rem !important;
+  }
+  
+  .subtitle-font {
+    font-size: 1.125rem !important;
+    font-weight: 500 !important;
+  }
+  
+  .hero-background-elements {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .floating-svg {
+    position: absolute;
+    opacity: 1;
+    pointer-events: none;
+    transform-origin: center;
+  }
+  
+  
+  
+  #feedschool-hero {
+    height: calc(100vh - 57px);
+    /* Adjust for navbar height */
+    background: linear-gradient(to bottom, #ffffff, #bbe5fa);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #feedschool-hero .hero-img {
+    z-index: 2;
+  }
+  
+  .hero-section {
+    width: 100%;
+    height: 100%;
+    /* background: url('/assets/img/feedschool-hero-img3.png') no-repeat center center; */
+    background-size: cover;
+  
+    display: flex;
+    top: 4%;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+  }
+  
+  
+  
+  /* Logo Marquee */
+  
+  .home-logo-wrapper {
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .home-logo-wrapper.reverse {
+    margin-top: -2rem;
+  }
+  
+  .clients-grid.logo-animate {
+    grid-column-gap: 3rem;
+    opacity: 1;
+    flex: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    display: flex;
+  }
+  
+  .marquee-overlay{
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%);
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .logo-animate {
+    animation: slide 50s infinite linear;
+  }
+  
+  .clients-grid.logo-animate-alt {
+    grid-column-gap: 3rem;
+    flex: none;
+    width: 100rem;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: auto;
+    display: flex;
+  }
+  
+  .logo-animate-alt {
+    animation: slidealt 50s infinite linear;
+    animation-direction: reverse;
+  }
+  
+  /* Animation for the first right to left marquee */
+  @keyframes slide {
+    0% {
+      transform: translateX(calc(0% + 50px));
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logo-animate {
+    animation: slide 35s infinite linear;
+    /* Adjust the seconds for a slower or faster animation */
+  }
+  
+  /* Animation for the second left to right marquee */
+  @keyframes slidealt {
+    0% {
+      transform: translateX(calc(0% + 50px));
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logo-animate-alt {
+    animation: slidealt 35s infinite linear;
+    /* Adjust the seconds for a slower or faster animation */
+    animation-direction: reverse;
+  }
+  
+  
+  
+  .role-register .nav .nav-item .nav-link {
+    background-color: var(--white);
+    color: var(--text-dark-500);
+    border-radius: 16px;
+    border: 2px solid var(--grey-400);
+    transition: all 0.3s ease;
+  }
+  
+  .role-register .nav .nav-item .nav-link:hover,
+  .role-register .nav .nav-item .nav-link.active {
+    background-color: var(--primary-50);
+    color: var(--primary-500);
+    border: 2px solid var(--primary-100);
+  }
+  
+  .role-register .nav .nav-item .nav-link i {
+    font-size: 1.125rem;
+  }
