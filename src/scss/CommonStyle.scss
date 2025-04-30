@@ -2,9 +2,10 @@
 @use './elements/fonts' as *;
 @use './elements/icon_fonts' as *;
 @use './elements/colors' as *;
-@use './elements/button' as *;
 @use './elements/variables' as *;
+@use './elements/button' as *;
 @use './elements/typography' as *;
+
 
 
 
@@ -143,7 +144,7 @@
           
           &:hover,
           &.active {
-            background-color: var(--primary-50);
+            background-color: $primary-50;
             color: $primary-500;
             border: 2px solid $primary-100;
           }

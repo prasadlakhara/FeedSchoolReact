@@ -6,6 +6,7 @@
 @use './scss/elements/variables' as *;
 @use './scss/elements/typography' as *;
 @use './scss/elements/form' as *;
+@use './scss/CommonStyle.scss' as *;
 
 
 body {
@@ -18,9 +19,6 @@ body {
   box-sizing: border-box;
   user-select: none;
 }
-
-
-
 
 // Links
 a {

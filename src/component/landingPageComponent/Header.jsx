@@ -1,6 +1,6 @@
 import Signup from "@/component/common/Signup";
 import Signin from "@/component/common/Signin";
-import Logo from "../../../public/assets/img/FeedSchool_Logo.svg";
+import Logo from "../../assets/img/FeedSchool_Logo.svg";
 function Header () {
   return (
     <>

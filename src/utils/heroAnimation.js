@@ -3,7 +3,7 @@ let initialized = false;
 export function initHeroAnimation(
   containerSelector,
   heroSelector,
-  svgPath = '/assets/hero-bg-elements/',
+  svgPath = '/src/assets/hero-bg-elements/',
   svgCount = 28
 ) {
   if (initialized) return;

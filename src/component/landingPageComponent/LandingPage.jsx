@@ -1,8 +1,8 @@
 
 import { initHeroAnimation } from '@/utils/heroAnimation.js';
 import React, { useEffect } from 'react';
-import heroImg5 from "../../../public/assets/img/feedschool-hero-img5.png"
-import heroImgMobile from "../../../public/assets/img/feedschool-hero-img-mobile.png"
+import heroImg5 from "../../assets/img/feedschool-hero-img5.png" 
+import heroImgMobile from "../../assets/img/feedschool-hero-img-mobile.png"
 function LandingPage() {
 
   useEffect(() => {
