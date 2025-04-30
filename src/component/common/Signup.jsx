@@ -1,3 +1,4 @@
+import SentMail from "../../assets/img/sent-mail-vector.svg";
 function Signup() {
   return (
    <>
@@ -142,7 +143,42 @@ function Signup() {
                 </div>
                 <div className="tab-pane fade" id="pills-events" role="tabpanel"
                   aria-labelledby="pills-events-tab">
-                  Events WP_Query goes here.
+                     <form className="Restaurant-registration-form">
+                    <div className="mb-3">
+                      <label for="yournameinput" className="form-label">Your Name</label>
+                      <input type="text" className="form-control" id="yournameinput" placeholder="Your First name and Last name" />
+                    </div>
+                    <div className="mb-3">
+                      <label for="parentemailinput" className="form-label">Email</label>
+                      <input type="text" className="form-control" id="parentemailinput"
+                        aria-describedby="emailHelp" />
+                      <div id="emailHelp" className="form-text">We'll never share your
+                        email with anyone else.</div>
+                    </div>
+                    <div className="mb-3">
+                      <label for="Restaurantname" className="form-label">Restaurant Name</label>
+                      <input type="text" className="form-control" id="Restaurantname" placeholder="Restaurant Name" />
+                    </div>
+                    <div className="mb-3">
+                      <label for="RestaurantAddress" className="form-label">Restaurant Address</label>
+                      <textarea className="form-control" placeholder="Add Restaurant Address here" id="RestaurantAddress" style="height: 100px"></textarea>
+                    </div>
+                    <div className="mb-3 password-wrapper">
+                      <label for="parentpasswordcreate" className="form-label">Password</label>
+                      <input type="password" className="form-control" id="parentpasswordcreate" />
+                      <button type="button" className="toggle-password" onclick="togglePassword('parentpasswordcreate', this)">
+                        <i className="ph ph-eye-slash"></i>
+                      </button>
+                    </div>
+                    
+                    <div className="mb-3 password-wrapper">
+                      <label for="parentconfirmpassword" className="form-label">Confirm Password</label>
+                      <input type="password" className="form-control" id="parentconfirmpassword" />
+                      <button type="button" className="toggle-password" onclick="togglePassword('parentconfirmpassword', this)">
+                        <i className="ph ph-eye-slash"></i>
+                      </button>
+                    </div>
+                  </form>
                 </div>
               </div>
               <div className="d-grid gap-2 pt-3">
@@ -151,6 +187,20 @@ function Signup() {
               </div>
             </div>
 
+
+            {/* This section will be call after filling the above form */}
+            <div className="conformation-mail-sent">
+              <div className="conformation-mail-sent-wrapper d-flex flex-column align-items-center justify-content-center">
+                <div className="conformation-mail-sent-vector d-flex align-items-center mb-3">
+                  <img src={SentMail} alt="" className="img-fluid"/>
+                </div>
+                <h5 className="mb-1">Thank You for Registering!</h5>
+                <p className="text-center">We’ve sent an activation link to your email.</p>
+              </div>
+              <div className="d-grid gap-2 pt-3">
+                <button type="submit" className="btn btn-primary" data-bs-dismiss="modal">Done</button>
+              </div>
+            </div>
           </div>
       </section>
    </>
