@@ -1,0 +1,8 @@
+@mixin border-radius($radius) {
+    border-radius: $radius !important;
+  }
+  
+  @mixin transition($property) {
+    transition: $property;
+  }
+  

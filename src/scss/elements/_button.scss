@@ -1,0 +1,44 @@
+@use './mixins' as *;
+@use './fonts' as *;
+@use './icon_fonts' as *; 
+@use './colors' as *;
+@use './variables' as *;
+
+
+// Button styles
+.btn {
+    @include border-radius(12px);
+    
+    &-theme-font {
+      font-family: 'Helvetica Rounded LT Std', sans-serif;
+    }
+    
+    &-outline {
+      color: $text-dark-500 !important;
+      background-color: transparent !important;
+      border-radius: 0.75rem 0px 0px 0.75rem !important;
+      border: 1px solid $grey-400 !important;
+    }
+    
+    &-primary {
+      color: $white !important;
+      background-color: $primary-500 !important;
+    }
+    
+    &-outline-primary {
+      color: $primary-500 !important;
+      background-color: transparent !important;
+      border: 1px solid $primary-500 !important;
+      @include transition(all 0.3s ease);
+      
+      &:hover {
+        color: $white !important;
+        background-color: $primary-500 !important;
+        border: 1px solid $primary-500 !important;
+      }
+    }
+    
+    &-link {
+      text-decoration: none !important;
+    }
+  }

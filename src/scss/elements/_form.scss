@@ -1,0 +1,76 @@
+@use './mixins' as *;
+@use './fonts' as *;
+@use './icon_fonts' as *;   
+@use './colors' as *;
+@use './variables' as *;
+@use './button' as *;
+@use './typography' as *;
+
+
+
+// Form elements
+.mobile-number-input-group {
+    .form-control {
+      border-radius: 0rem 0.75rem 0.75rem 0rem !important;
+    }
+  }
+  
+  .form-control {
+    @include border-radius(0.75rem);
+    
+    &::placeholder {
+      color: $text-dark-100 !important;
+    }
+    
+    &:focus {
+      box-shadow: unset !important;
+      border: 1px solid $primary-100 !important;
+    }
+  }
+  
+  .form-label {
+    font-size: 0.875rem !important;
+    margin-bottom: 0.125rem !important;
+    font-weight: 500 !important;
+  }
+  
+  // Registration forms
+  .role-register-form {
+    max-height: 300px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .parent-registration-form {
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera */
+    }
+    
+    > * {
+      min-width: 100%;
+      box-sizing: border-box;
+    }
+  }
+  
+  // Password field
+  .password-wrapper {
+    position: relative;
+    
+    .toggle-password {
+      position: absolute;
+      top: 70%;
+      right: 12px;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.2rem;
+      color: #888;
+      
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  

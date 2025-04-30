@@ -1,0 +1,28 @@
+@use './scss/elements/mixins' as *;
+@use './scss/elements/fonts' as *;
+@use './scss/elements/icon_fonts' as *;
+@use './scss/elements/colors' as *;
+@use './scss/elements/button' as *;
+@use './scss/elements/variables' as *;
+@use './scss/elements/typography' as *;
+@use './scss/elements/form' as *;
+
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $text-dark-500 !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+
+
+
+// Links
+a {
+  text-decoration: none !important;
+}

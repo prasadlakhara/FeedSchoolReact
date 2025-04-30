@@ -1,0 +1,55 @@
+@use './mixins' as *;
+@use './fonts' as *;
+@use './colors' as *;
+
+// Icon font sizes
+.ph {
+    &-xs {
+      font-size: 12px;
+    }
+    
+    &-sm {
+      font-size: 16px;
+    }
+    
+    &-md {
+      font-size: 24px;
+    }
+    
+    &-lg {
+      font-size: 32px;
+    }
+    
+    &-xl {
+      font-size: 48px;
+    }
+  }
+  
+  // Text classes
+  .text {
+    &-primary {
+      color: $primary-500 !important;
+    }
+    
+    &-secondary {
+      color: $secondary-500 !important;
+    }
+    
+    &-dark {
+      color: $text-dark-500 !important;
+      
+      &-200 {
+        color: $text-dark-200;
+      }
+    }
+  }
+
+
+  .title-font {
+    font-size: 3rem !important;
+  }
+  
+  .subtitle-font {
+    font-size: 1.125rem !important;
+    font-weight: 500 !important;
+  }
