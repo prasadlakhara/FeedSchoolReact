@@ -1,12 +1,77 @@
-# React + Vite
+# 🥗 School Lunch Ordering System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, modular, and customizable **School Lunch Ordering System** built with **React + Vite + SCSS**. Designed to bridge the gap between **parents, schools, restaurants, and administrators**, this system simplifies the entire lunch ordering process while ensuring flexibility, usability, and scalability.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ **React** – Declarative, component-based UI
+- ⚡ **Vite** – Ultra-fast development server & build tool
+- 🎨 **SCSS** – Theming, variables, and clean modular styles
+- 🧩 **Custom Icon Fonts** – Optimized for performance and easy customization
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Core Features
+
+### 👨‍👩‍👧‍👦 Parent Panel
+- Weekly meal planning for multiple children
+- Class-wise menu selection
+- Order summary & invoice download
+- Live order tracking
+
+### 🏫 School Dashboard
+- View/manage menu availability by class
+- Coordinate with registered restaurants
+- Student & classroom linkage
+
+### 🍽️ Restaurant Dashboard
+- Order acceptance and preparation tracking
+- Menu management per school
+- Delivery confirmation flow
+
+### 🧑‍💼 Admin & Area Manager
+- Role-based access and user management
+- Menu, pricing, and vendor control
+- System analytics and regional overview
+
+### 🧰 Support Team Portal
+- Handle raised tickets and meal-related queries
+- Communication panel for issue resolution
+
+---
+
+## 🧱 Project Structure
+
+```bash
+school-lunch-ordering-system/
+├── public/
+│   └── assets/
+│       ├── fonts/
+│       └── hero-bg-elements/
+│           └── img/
+│       ├── react.svg
+│       └── vite.svg
+│
+├── src/
+│   ├── assets/
+│   │   ├── fonts/
+│   │   └── hero-bg-elements/img/
+│   ├── component/
+│   │   ├── common/
+│   │   └── landingPageComponent/
+│   ├── layout/               # Shared layout components (Header, Sidebar, etc.)
+│   ├── router/               # Centralized routing logic
+│   ├── scss/                 # SCSS modules, variables, themes
+│   ├── utils/                # Helper functions
+│   ├── App.jsx
+│   ├── App.scss
+│   ├── index.scss
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
