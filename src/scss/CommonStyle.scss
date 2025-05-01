@@ -156,3 +156,48 @@
       }
     }
   }
+
+
+  // Footer css
+
+  .footer {
+    background-color: var(--primary-500);
+    color: var(--white);
+    padding: 3.75rem 0 0.625rem 0; // 60px 0 10px 0
+  
+    .footer-sections {
+      margin-bottom: 4.5rem; // 72px
+  
+      .footer-nav {
+        .footer-nav-list {
+          .footer-nav-list-item {
+            a {
+              color: var(--white);
+              opacity: 0.5;
+              transition: opacity 0.1s ease;
+  
+              &:hover {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .footer-bottom {
+      padding-top: 1.875rem; // 30px
+      border-top: 1px solid #d4d2e32f;
+  
+      a {
+        color: var(--white);
+        opacity: 0.8;
+        transition: opacity 0.1s ease;
+  
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  
