@@ -161,7 +161,7 @@ function Signup() {
                     </div>
                     <div className="mb-3">
                       <label for="RestaurantAddress" className="form-label">Restaurant Address</label>
-                      <textarea className="form-control" placeholder="Add Restaurant Address here" id="RestaurantAddress" style="height: 100px"></textarea>
+                      <textarea className="form-control" placeholder="Add Restaurant Address here" id="RestaurantAddress" ></textarea>
                     </div>
                     <div className="mb-3 password-wrapper">
                       <label for="parentpasswordcreate" className="form-label">Password</label>

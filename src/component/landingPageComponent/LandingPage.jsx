@@ -11,6 +11,7 @@ function LandingPage() {
 
   return (
     <>
+    {/* Hero Section */}
       <section id="feedschool-hero">
         <div className="hero-background-elements"></div>
         <img src={heroImg5} alt="Hero Image" className="hero-img img img-fluid position-absolute bottom-0 d-none d-md-block" />
@@ -39,6 +40,127 @@ function LandingPage() {
             </div>
           </div>
         </div>
+      </section>
+      <section id='Logos-marquee'>
+      {/* Logo Marquee */}
+    <div className="logos-marquee">
+      <div className="home-logo-wrapper">
+        <div className="marquee-overlay"></div>
+        <div className="clients-grid logo-animate"><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542556_Frame%2018608.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac48-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542559_deloitte.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac49-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542554_Amazon%20logo.svg"
+            loading="eager" alt className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542555_Frame%2018610.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4b-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542558_Frame%2018611.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4c-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542557_Frame%2018612.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4d-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255a_EY.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4e-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255d_toyota.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4f-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255c_Frame%2018608.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac50-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255b_airbus.svg"
+            loading="eager" alt className="client-logo"/></div>
+        <div className="clients-grid logo-animate"><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542556_Frame%2018608.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac53-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542559_deloitte.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac54-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542554_Amazon%20logo.svg"
+            loading="eager" alt className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542555_Frame%2018610.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac56-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542558_Frame%2018611.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac57-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542557_Frame%2018612.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac58-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255a_EY.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac59-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255d_toyota.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac5a-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255c_Frame%2018608.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac5b-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255b_airbus.svg"
+            loading="eager" alt className="client-logo"/></div>
+        <div className="clients-grid logo-animate"><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542556_Frame%2018608.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac5e-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542559_deloitte.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac5f-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542554_Amazon%20logo.svg"
+            loading="eager" alt className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542555_Frame%2018610.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac61-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542558_Frame%2018611.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac62-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542557_Frame%2018612.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac63-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255a_EY.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac64-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255d_toyota.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac65-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255c_Frame%2018608.svg"
+            loading="eager"
+            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac66-09ede84c" alt
+            className="client-logo"/><img
+            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255b_airbus.svg"
+            loading="eager" alt className="client-logo"/></div>
+        <div className="home-logo-left-gradient"></div>
+        <div className="home-logo-left-gradient right"></div>
+      </div>
+    </div>
       </section>
     </>
   );
