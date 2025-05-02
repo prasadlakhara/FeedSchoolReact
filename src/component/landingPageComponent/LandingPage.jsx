@@ -1,8 +1,9 @@
 
 import { initHeroAnimation } from '@/utils/heroAnimation.js';
 import React, { useEffect } from 'react';
-import heroImg5 from "../../assets/img/feedschool-hero-img5.png" 
+import heroImg5 from "../../assets/img/feedschool-hero-img5.png"
 import heroImgMobile from "../../assets/img/feedschool-hero-img-mobile.png"
+import aboutusimg from '../../assets/img/about-us-img.png'
 function LandingPage() {
 
   useEffect(() => {
@@ -11,7 +12,7 @@ function LandingPage() {
 
   return (
     <>
-    {/* Hero Section */}
+      {/* Hero Section */}
       <section id="feedschool-hero">
         <div className="hero-background-elements"></div>
         <img src={heroImg5} alt="Hero Image" className="hero-img img img-fluid position-absolute bottom-0 d-none d-md-block" />
@@ -42,126 +43,163 @@ function LandingPage() {
         </div>
       </section>
       <section id='Logos-marquee'>
-      {/* Logo Marquee */}
-    <div className="logos-marquee">
-      <div className="home-logo-wrapper">
-        <div className="marquee-overlay"></div>
-        <div className="clients-grid logo-animate"><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542556_Frame%2018608.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac48-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542559_deloitte.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac49-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542554_Amazon%20logo.svg"
-            loading="eager" alt className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542555_Frame%2018610.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4b-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542558_Frame%2018611.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4c-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542557_Frame%2018612.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4d-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255a_EY.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4e-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255d_toyota.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4f-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255c_Frame%2018608.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac50-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255b_airbus.svg"
-            loading="eager" alt className="client-logo"/></div>
-        <div className="clients-grid logo-animate"><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542556_Frame%2018608.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac53-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542559_deloitte.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac54-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542554_Amazon%20logo.svg"
-            loading="eager" alt className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542555_Frame%2018610.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac56-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542558_Frame%2018611.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac57-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542557_Frame%2018612.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac58-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255a_EY.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac59-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255d_toyota.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac5a-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255c_Frame%2018608.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac5b-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255b_airbus.svg"
-            loading="eager" alt className="client-logo"/></div>
-        <div className="clients-grid logo-animate"><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542556_Frame%2018608.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac5e-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542559_deloitte.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac5f-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542554_Amazon%20logo.svg"
-            loading="eager" alt className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542555_Frame%2018610.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac61-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542558_Frame%2018611.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac62-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542557_Frame%2018612.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac63-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255a_EY.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac64-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255d_toyota.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac65-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255c_Frame%2018608.svg"
-            loading="eager"
-            id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac66-09ede84c" alt
-            className="client-logo"/><img
-            src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255b_airbus.svg"
-            loading="eager" alt className="client-logo"/></div>
-        <div className="home-logo-left-gradient"></div>
-        <div className="home-logo-left-gradient right"></div>
-      </div>
-    </div>
+      <div className="section-title mb-0">
+          <h4>Valuable Partners</h4>
+        </div>
+        {/* Logo Marquee */}
+        <div className="logos-marquee">
+          <div className="home-logo-wrapper">
+            <div className="marquee-overlay"></div>
+            <div className="clients-grid logo-animate"><img
+              src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542556_Frame%2018608.svg"
+              loading="eager"
+              id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac48-09ede84c" alt
+              className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542559_deloitte.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac49-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542554_Amazon%20logo.svg"
+                loading="eager" alt className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542555_Frame%2018610.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4b-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542558_Frame%2018611.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4c-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542557_Frame%2018612.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4d-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255a_EY.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4e-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255d_toyota.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac4f-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255c_Frame%2018608.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac50-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255b_airbus.svg"
+                loading="eager" alt className="client-logo" /></div>
+            <div className="clients-grid logo-animate"><img
+              src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542556_Frame%2018608.svg"
+              loading="eager"
+              id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac53-09ede84c" alt
+              className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542559_deloitte.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac54-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542554_Amazon%20logo.svg"
+                loading="eager" alt className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542555_Frame%2018610.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac56-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542558_Frame%2018611.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac57-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542557_Frame%2018612.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac58-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255a_EY.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac59-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255d_toyota.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac5a-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255c_Frame%2018608.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac5b-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255b_airbus.svg"
+                loading="eager" alt className="client-logo" /></div>
+            <div className="clients-grid logo-animate"><img
+              src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542556_Frame%2018608.svg"
+              loading="eager"
+              id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac5e-09ede84c" alt
+              className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542559_deloitte.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac5f-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542554_Amazon%20logo.svg"
+                loading="eager" alt className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542555_Frame%2018610.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac61-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542558_Frame%2018611.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac62-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f542557_Frame%2018612.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac63-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255a_EY.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac64-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255d_toyota.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac65-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255c_Frame%2018608.svg"
+                loading="eager"
+                id="w-node-_672280b4-ff28-8ac3-f54a-c76ee9bfac66-09ede84c" alt
+                className="client-logo" /><img
+                src="https://cdn.prod.website-files.com/65aebad6eb424b0209ede842/65afaf92263c2c5d3f54255b_airbus.svg"
+                loading="eager" alt className="client-logo" /></div>
+            <div className="home-logo-left-gradient"></div>
+            <div className="home-logo-left-gradient right"></div>
+          </div>
+        </div>
       </section>
+      <section id="about-us">
+      <div className="container" id="about-us-wrapper">
+        <div className="section-title">
+          <h4>About us</h4>
+        </div>
+        <div className="section-body row">
+          <div className="col-xl-6">
+            <div className="about-us-image px-3">
+              <img src={aboutusimg} className="img-fluid" />
+            </div>
+          </div>
+          <div className="col-xl-6">
+            <div className="about-us-content d-flex align-items-center h-100">
+              <div className="d-flex flex-column justify-content-between h-50">
+                <div className="aboutus-top-content">
+                  <h2 className="text-primary">Why Choose Us for Your <br/> <span className="text-secondary">School Lunch?</span></h2>
+                  <ul className="about-us-points-list">
+                    <li className="about-us-points">Fundraising That Actually Works</li>
+                    <li className="about-us-points">Built to Support Schools</li>
+                    <li className="about-us-points">Easy-to-use Interface for All Users</li>
+                    <li className="about-us-points">Secure & Local</li>
+                  </ul>
+                </div>
+                <div className="aboutus-bottom-content">
+                  <button className="btn btn-primary">
+                    Explore More <i className="ph ph-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     </>
   );
 }
