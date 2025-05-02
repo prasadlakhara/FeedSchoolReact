@@ -200,6 +200,49 @@ function LandingPage() {
         </div>
       </div>
     </section>
+    <section id="role-cards-wrapper">
+      <div className="container">
+      <div className="section-title">
+          <h4 className="mb-3">Designed for every role</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar <br /> elementum tempus hac tellus libero accumsan. </p>
+        </div>
+        <div className="row">
+          <div className="col-xl-6">
+            <div className="row px-0 g-3 h-100">
+              <div className="col-xl-12">
+              <div className="card role-card h-100">
+              <div className="card-body role-card-body">
+                <p className="card-title role-card-title">parents</p>
+                <p className="card-subtitle role-card-subtitle">Order meals, track deliveries,
+                 <br />
+                 and set preferences.</p>
+              </div>
+            </div>
+              </div>
+              <div className="col-xl-12">
+              <div className="card role-card h-100">
+              <div className="card-body role-card-body">
+                <p className="card-title role-card-title">Restaurant</p>
+                <p className="card-subtitle role-card-subtitle">Handle orders,
+                 <br />
+                 schedules, and deliveries.</p>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-6">
+            <div className="card role-card full-height-card">
+              <div className="card-body role-card-body">
+                <p className="card-title role-card-title">School</p>
+                <p className="card-subtitle role-card-subtitle">Manage menus, <br />
+                approvals, and coordination.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     </>
   );
 }
