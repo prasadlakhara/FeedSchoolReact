@@ -1,7 +1,7 @@
 
 import { initHeroAnimation } from '@/utils/heroAnimation.js';
 import React, { useEffect } from 'react';
-import heroImg5 from "../../assets/img/feedschool-hero-img5.png"
+import heroImg from "../../assets/img/feedschool-hero-img.png"
 import heroImgMobile from "../../assets/img/feedschool-hero-img-mobile.png"
 import aboutusimg from '../../assets/img/about-us-img.png'
 function LandingPage() {
@@ -15,7 +15,7 @@ function LandingPage() {
       {/* Hero Section */}
       <section id="feedschool-hero">
         <div className="hero-background-elements"></div>
-        <img src={heroImg5} alt="Hero Image" className="hero-img img img-fluid position-absolute bottom-0 d-none d-md-block" />
+        <img src={heroImg} alt="Hero Image" className="hero-img img img-fluid position-absolute bottom-0 d-none d-md-block" />
         <img src={heroImgMobile} alt="Hero Image" className="hero-img img img-fluid position-absolute bottom-0 d-block d-md-none" />
         <div className="hero-section">
           <div className="container">
