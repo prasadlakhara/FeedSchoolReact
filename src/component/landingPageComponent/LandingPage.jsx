@@ -243,6 +243,105 @@ function LandingPage() {
         </div>
       </div>
     </section>
+    <section id="feature-card-wrapper">
+      <div className="container">
+      <div className="section-title">
+          <h4 className="mb-3">Browse our set of features</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar <br /> elementum tempus hac tellus libero accumsan. </p>
+        </div>
+        <div className="row">
+        <div className="col-xl-3">
+            <div className="card feature-card">
+              <div className="feature-card-body card-body d-flex flex-column justify-content-between">
+                <div className="card-top-content">
+                <div className="card-icon">
+                <i class="ph ph-users-four ph-lg text-primary"></i>
+                </div>
+                  <div className="card-title feature-card-title">
+                    Easy for Everyone
+                  </div>
+                  <div className="card-subtitle feature-card-subtitle">
+                  Simple tools for parents, schools, and admins to manage orders, payments, and menus with ease.
+                  </div>
+                </div>
+                <div className="card-bottom-content">
+                  <button className="btn btn-outline-primary border-0">
+                    Learn More <i className="ph ph-arrow-right"></i>
+                  </button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+          <div className="col-xl-3">
+            <div className="card feature-card">
+              <div className="feature-card-body card-body d-flex flex-column justify-content-between">
+                <div className="card-top-content">
+                <div className="card-icon">
+                <i class="ph ph-shield-check ph-lg text-primary"></i>
+                </div>
+                  <div className="card-title feature-card-title">
+                  Safe & Secure
+                  </div>
+                  <div className="card-subtitle feature-card-subtitle">
+                  Top-grade encryption and privacy-compliant. Your data stays protected, always.                  </div>
+                </div>
+                <div className="card-bottom-content">
+                  <button className="btn btn-outline-primary border-0">
+                    Learn More <i className="ph ph-arrow-right"></i>
+                  </button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+          <div className="col-xl-3">
+            <div className="card feature-card">
+              <div className="feature-card-body card-body d-flex flex-column justify-content-between">
+                <div className="card-top-content">
+                <div className="card-icon">
+                <i class="ph ph-devices ph-lg text-primary"></i>
+                </div>
+                  <div className="card-title feature-card-title">
+                  Mobile-Friendly
+                  </div>
+                  <div className="card-subtitle feature-card-subtitle">
+                  Access anytime, anywhere — fully responsive on phones, tablets, and desktops.                  </div>
+                </div>
+                <div className="card-bottom-content">
+                  <button className="btn btn-outline-primary border-0">
+                    Learn More <i className="ph ph-arrow-right"></i>
+                  </button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+          <div className="col-xl-3">
+            <div className="card feature-card">
+              <div className="feature-card-body card-body d-flex flex-column justify-content-between">
+                <div className="card-top-content">
+                <div className="card-icon">
+                <i class="ph ph-headset ph-lg text-primary"></i>
+                </div>
+                  <div className="card-title feature-card-title">
+                  Local Technical Support                  </div>
+                  <div className="card-subtitle feature-card-subtitle">
+                  Access anytime, anywhere — fully responsive on phones, tablets, and desktops.                  </div>
+                </div>
+                <div className="card-bottom-content">
+                  <button className="btn btn-outline-primary border-0">
+                    Learn More <i className="ph ph-arrow-right"></i>
+                  </button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+         
+      </div>
+      </div>
+    </section>
     </>
   );
 }
