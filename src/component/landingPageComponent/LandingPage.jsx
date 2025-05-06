@@ -193,9 +193,7 @@ function LandingPage() {
                     </ul>
                   </div>
                   <div className="aboutus-bottom-content">
-                    <button className="btn btn-primary"><Link to="aboutus"> Explore More <i className="ph ph-arrow-right"></i></Link>
-                     
-                    </button>
+                    <Link to="aboutus" className="btn btn-primary"> Explore More <i className="ph ph-arrow-right"></i></Link>
                   </div>
                 </div>
               </div>

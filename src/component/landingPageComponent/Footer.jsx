@@ -40,7 +40,7 @@ function Footer () {
                       <li className="footer-nav-list-item"><a>iOS</a></li>
                       <li className="footer-nav-list-item"><a>Android</a></li>
                       <li className="footer-nav-list-item"><a>Mac</a></li>
-                      <li className="footer-nav-list-item"><a><Link to="privacypolicy">Privacy Policy</Link></a></li>
+                      <li className="footer-nav-list-item"><Link to="privacypolicy">Privacy Policy</Link></li>
                       <li className="footer-nav-list-item"><a>Cancellation Policy</a></li>
                   </ul>
               </div>
