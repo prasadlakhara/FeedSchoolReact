@@ -15,10 +15,9 @@ function SiteRouter (){
             <Routes>
                 <Route path="" element={<LandingPageLayout />} >
                     <Route index element={<LandingPage />} />
-                   
+                    <Route path="aboutus"  element={<Aboutus />} /> 
+                    <Route path="privacypolicy"  element={<PrivacyPolicy />} /> 
                 </Route>
-                <Route path="aboutus"  element={<Aboutus />} /> 
-                <Route path="PrivacyPolicy"  element={<PrivacyPolicy />} /> 
                 <Route path="school"  element={<ManagementSchoolLayout />} /> 
                 <Route path="parent"  element={<ParentLayout />} /> 
                 <Route path="restaurant"  element={<RestaurantLayout />} /> 

@@ -1,6 +1,7 @@
 
 import { initHeroAnimation } from '@/utils/heroAnimation.js';
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import heroImg from "../../assets/img/feedschool-hero-img.png"
 import heroImgMobile from "../../assets/img/feedschool-hero-img-mobile.png"
 import aboutusimg from '../../assets/img/about-us-img.png'
@@ -192,8 +193,8 @@ function LandingPage() {
                     </ul>
                   </div>
                   <div className="aboutus-bottom-content">
-                    <button className="btn btn-primary">
-                      Explore More <i className="ph ph-arrow-right"></i>
+                    <button className="btn btn-primary"><Link to="aboutus"> Explore More <i className="ph ph-arrow-right"></i></Link>
+                     
                     </button>
                   </div>
                 </div>
