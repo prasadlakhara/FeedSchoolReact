@@ -170,8 +170,24 @@
   }
 
 /* About Us Section */
-#about-us, #role-cards-wrapper, #feature-card-wrapper {
+#about-us, #role-cards-wrapper, #feature-card-wrapper, #aboutus-mission-vision, #aboutus-bottom-descriotion {
   margin: 3.75rem 0;
+}
+
+#aboutus-hero-section{
+  background: linear-gradient(180deg, #ffffff, #BBE5FA);
+  padding: 3.75rem 0;
+}
+#privacy-policy-hero-wrapper{
+  display: flex;
+  padding: 3.75rem 0;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(187, 229, 250, 0.6), #ffffff);
+}
+.privacy-policy-content-heading{
+  p{
+    font-size: 1.25rem !important;
+  }
 }
   #about-us-wrapper {
     .section-body {

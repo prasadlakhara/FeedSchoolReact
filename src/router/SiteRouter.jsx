@@ -4,8 +4,10 @@ import User from "@/component/landingPageComponent/User.jsx";
 import LandingPageLayout from "@/layout/LandingPageLayout.jsx";
 import ManagementSchoolLayout from "@/layout/ManagementSchoolLayout.jsx";
 import ParentLayout from "@/layout/ParentLayout.jsx";
+import Aboutus from "@/component/Aboutus";
 import RestaurantLayout from "@/layout/RestaurantLayout.jsx";
 import LandingPage from "../component/landingPageComponent/LandingPage";
+import PrivacyPolicy from "../component/PrivacyPolicy";
 function SiteRouter (){
     return(
         
@@ -15,6 +17,8 @@ function SiteRouter (){
                     <Route index element={<LandingPage />} />
                    
                 </Route>
+                <Route path="aboutus"  element={<Aboutus />} /> 
+                <Route path="PrivacyPolicy"  element={<PrivacyPolicy />} /> 
                 <Route path="school"  element={<ManagementSchoolLayout />} /> 
                 <Route path="parent"  element={<ParentLayout />} /> 
                 <Route path="restaurant"  element={<RestaurantLayout />} /> 

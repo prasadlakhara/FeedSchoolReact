@@ -7,7 +7,7 @@ import aboutusimg from '../../assets/img/about-us-img.png'
 import featureData from '@/constant/feartureCardsData.js'
 function LandingPage() {
   // State to manage the hero image
-  const [cards, setCards] = useState(featureData);
+  const [cards] = useState(featureData);
 
   useEffect(() => {
     initHeroAnimation('.hero-background-elements', '#feedschool-hero');
@@ -258,7 +258,7 @@ function LandingPage() {
                   <div className="feature-card-body card-body d-flex flex-column justify-content-between">
                     <div className="card-top-content">
                       <div className="card-icon">
-                        <i class={card.icon}></i>
+                        <i className={card.icon}></i>
                       </div>
                       <div className="card-title feature-card-title">
                         {card.title}
