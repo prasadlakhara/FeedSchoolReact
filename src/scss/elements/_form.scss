@@ -38,7 +38,8 @@
   .role-register-form {
     max-height: 300px;
     overflow-x: auto;
-    scrollbar-width: none;
+    overflow-y: scroll;
+    scrollbar-width: thin;
     -ms-overflow-style: none;
   }
   
