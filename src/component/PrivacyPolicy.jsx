@@ -52,8 +52,8 @@ function PrivacyPolicy() {
                                         1. Information We Collect
                                     </div>
                                     <div className="terms-description-content">
-                                        <p className='mb-4'>We collect personal information that is necessary for the provision of our services, including:</p>
-                                        <div className="row g-3">
+                                        <p className='mb-0'>We collect personal information that is necessary for the provision of our services, including:</p>
+                                        <div className="row g-3 mt-2">
                                             <div className="col-xl-6">
                                                 <div className="card terms-description-card">
                                                     <div className="terms-description-card-body card-body d-flex align-items-center">
@@ -102,9 +102,105 @@ function PrivacyPolicy() {
                                     </div>
 
                                 </div>
+                                <div className="terms-description-list">
+                                    <div className="terms-description-heading">
+                                        2. How We Use Your Information
+                                    </div>
+                                    <div className="terms-description-content">
+                                        <p className='mb-0'>We use your personal information for the following purposes:</p>
+                                        <ul className='mt-2'>
+                                            <li>To process and manage lunch orders.</li>
+                                            <li>To facilitate school fundraising efforts.</li>
+                                            <li>To communicate with you regarding your orders or account.</li>
+                                            <li>To improve our services and platform.</li>
+                                            <li>To comply with legal obligations.</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div className="terms-description-list">
+                                    <div className="terms-description-heading">
+                                        3. Data Sharing and Disclosure
+                                    </div>
+                                    <div className="terms-description-content">
+                                        <p className='mb-0'>We will not sell, rent, or share your personal information with third parties, except as follows:</p>
+                                        <div className="row gap-3 mt-2">
+                                            <div className="col-xl">
+                                                <div className="card terms-description-card bg-transparent">
+                                                    <div className="terms-description-card-body card-body d-flex">
+                                                        <i className="ph ph-users-three ph-lg"></i>
+                                                        <div className="terms-description-card-content">
+                                                            <h5 className='terms-description-list-title'>With Schools and Vendors:</h5>
+                                                            <p>For the purpose of fulfilling lunch orders, student details (name, grade, and order history) may be shared with the relevant school lunch coordinator and selected vendors.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
-                        <div className="col-xl-6"></div>
+                        <div className="col-xl-6 terms-description-wrapper">
+                        <div className="terms-description">
+                                <div className="terms-description-list">
+                                    <div className="terms-description-heading">
+                                        4. Data Retention
+                                    </div>
+                                    <div className="terms-description-content">
+                                        <p className='mb-0'>Your personal information will be retained only for as long as necessary to fulfill the purposes outlined in this policy or as required by law. Once the information is no longer needed, it will be securely deleted or anonymized.</p>
+                                    </div>
+                                </div>
+                                <div className="terms-description-list">
+                                    <div className="terms-description-heading">
+                                        5. Security of Your Information
+                                    </div>
+                                    <div className="terms-description-content">
+                                        <p className='mb-0'>We take reasonable precautions to protect your personal data. Our platform uses encryption and security protocols to safeguard your information from unauthorized access, disclosure, alteration, and destruction. However, no system is entirely secure, and we cannot guarantee the absolute security of your data.</p>
+                                    </div>
+                                </div>
+                                <div className="terms-description-list">
+                                    <div className="terms-description-heading">
+                                        6. Your Rights
+                                    </div>
+                                    <div className="terms-description-content">
+                                        <p className='mb-0'>You have the right to:</p>
+                                        <ul className='my-3'>
+                                            <li>Access: Request a copy of the personal information we hold about you.</li>
+                                            <li>Rectification: Request correction of any inaccurate or incomplete information.</li>
+                                            <li>Deletion: Request deletion of your personal information, subject to certain legal exceptions.</li>
+                                            <li>Opt-Out: You can opt-out of promotional emails at any time by following the unsubscribe instructions in the emails.</li>
+                                        </ul>
+                                        <p className='mb-0'>To exercise any of these rights, please contact us using the details provided below.</p>
+                                    </div>
+                                </div>
+                                <div className="terms-description-list">
+                                    <div className="terms-description-heading">
+                                        7. Third-Party Links
+                                    </div>
+                                    <div className="terms-description-content">
+                                        <p className='mb-0'>Our platform may contain links to third-party websites. We are not responsible for the privacy practices or content of these external sites. We encourage you to review the privacy policies of any third-party websites you visit.</p>
+                                    </div>
+                                </div>
+                                <div className="terms-description-list">
+                                    <div className="terms-description-heading">
+                                        8. Changes to This Privacy Policy
+                                    </div>
+                                    <div className="terms-description-content">
+                                        <p className='mb-0'>We may update this Privacy and Data Protection Policy from time to time. Any changes will be posted on this page with an updated "Effective Date." We encourage you to review this policy periodically for any updates.</p>
+                                    </div>
+                                </div>
+                                <div className="terms-description-list">
+                                    <div className="terms-description-heading">
+                                        9. Contact Us
+                                    </div>
+                                    <div className="terms-description-content">
+                                        <p className='mb-0'>If you have any questions or concerns about this policy or how we handle your personal information, please contact us at:</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
