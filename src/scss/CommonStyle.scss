@@ -170,7 +170,7 @@
   }
 
 /* About Us Section */
-#about-us, #role-cards-wrapper, #feature-card-wrapper, #aboutus-mission-vision, #aboutus-bottom-descriotion {
+#about-us, #role-cards-wrapper, #feature-card-wrapper, #aboutus-mission-vision, #aboutus-bottom-descriotion, #privacy-policy-content-wrapper {
   margin: 3.75rem 0;
 }
 
@@ -187,6 +187,44 @@
 .privacy-policy-content-heading{
   p{
     font-size: 1.25rem !important;
+  }
+}
+
+.terms-description-wrapper{
+  .top-description{
+    p{
+      color: var(--text-dark-500) !important;
+    }
+  }
+  p{
+    font-weight: 500 !important;
+    color: var(--text-dark-400);
+  }
+
+  .terms-description-heading{
+    font-size: 1.125rem !important;
+    font-weight: 700 !important
+  }
+
+  .terms-description-card{
+    border: 0 !important;
+    border-radius: 12px !important;
+    background: linear-gradient(90deg, #D1EBCC66, transparent) !important;
+    color: var(--secondary-500) !important;
+
+    .terms-description-card-body{
+      i{
+        margin-right: 10px;
+      }
+      .terms-description-card-content{
+        h5{
+          margin-bottom: 4px !important;
+        }
+        p{
+          margin-bottom: 0 !important;
+        }
+      }
+    }
   }
 }
   #about-us-wrapper {
