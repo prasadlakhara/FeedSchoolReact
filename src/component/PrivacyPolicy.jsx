@@ -124,14 +124,36 @@ function PrivacyPolicy() {
                                     </div>
                                     <div className="terms-description-content">
                                         <p className='mb-0'>We will not sell, rent, or share your personal information with third parties, except as follows:</p>
-                                        <div className="row gap-3 mt-2">
-                                            <div className="col-xl">
+                                        <div className="row g-3 mt-2">
+                                            <div className="col-xl-12">
                                                 <div className="card terms-description-card bg-transparent">
                                                     <div className="terms-description-card-body card-body d-flex">
                                                         <i className="ph ph-users-three ph-lg"></i>
                                                         <div className="terms-description-card-content">
                                                             <h5 className='terms-description-list-title'>With Schools and Vendors:</h5>
                                                             <p>For the purpose of fulfilling lunch orders, student details (name, grade, and order history) may be shared with the relevant school lunch coordinator and selected vendors.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-xl-12">
+                                                <div className="card terms-description-card bg-transparent">
+                                                    <div className="terms-description-card-body card-body d-flex">
+                                                        <i className="ph ph-network ph-lg"></i>
+                                                        <div className="terms-description-card-content">
+                                                            <h5 className='terms-description-list-title'>With Service Providers:</h5>
+                                                            <p>We may share your information with trusted third-party service providers who assist in operating our platform, processing payments, or conducting business activities. These providers are obligated to maintain the confidentiality of your information.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-xl-12">
+                                                <div className="card terms-description-card bg-transparent">
+                                                    <div className="terms-description-card-body card-body d-flex">
+                                                        <i className="ph ph-scales ph-lg"></i>
+                                                        <div className="terms-description-card-content">
+                                                            <h5 className='terms-description-list-title'>Legal Compliance:</h5>
+                                                            <p>We may disclose your information if required by law, such as to comply with a subpoena or legal process.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -143,7 +165,7 @@ function PrivacyPolicy() {
                             </div>
                         </div>
                         <div className="col-xl-6 terms-description-wrapper">
-                        <div className="terms-description">
+                            <div className="terms-description">
                                 <div className="terms-description-list">
                                     <div className="terms-description-heading">
                                         4. Data Retention
@@ -197,6 +219,11 @@ function PrivacyPolicy() {
                                     </div>
                                     <div className="terms-description-content">
                                         <p className='mb-0'>If you have any questions or concerns about this policy or how we handle your personal information, please contact us at:</p>
+                                        <div className="mt-4">
+                                            <h5>Email: support@hdit.ca </h5>
+                                            <h5>Phone: [Insert Phone Number]</h5>
+                                            <h5>Address: [Insert Address]</h5>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
