@@ -220,9 +220,9 @@ function PrivacyPolicy() {
                                     <div className="terms-description-content">
                                         <p className='mb-0'>If you have any questions or concerns about this policy or how we handle your personal information, please contact us at:</p>
                                         <div className="mt-4">
-                                            <h5>Email: support@hdit.ca </h5>
-                                            <h5>Phone: [Insert Phone Number]</h5>
-                                            <h5>Address: [Insert Address]</h5>
+                                            <p className='fw-bold mb-0'>Email: support@hdit.ca </p>
+                                            <p className='fw-bold mb-0'>Phone: [Insert Phone Number]</p>
+                                            <p className='fw-bold mb-0'>Address: [Insert Address]</p>
                                         </div>
                                     </div>
                                 </div>
