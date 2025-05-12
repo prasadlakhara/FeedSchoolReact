@@ -66,7 +66,7 @@ function TermsAndCondition() {
                                     </div>
                                     <div className="terms-description-content">
                                         <p className='mb-0'>You agree to use the Platform exclusively for lawful purposes and in accordance with these Terms. You may not use the Platform for any unlawful purpose, including but not limited to:</p>
-                                       <ul className='my-3'>
+                                        <ul className='my-3'>
                                             <li>Violating any applicable local, state, provincial, or federal laws.</li>
                                             <li>Engaging in fraudulent or malicious activities.</li>
                                             <li>Distributing harmful software, malware, or viruses.</li>
@@ -102,7 +102,7 @@ function TermsAndCondition() {
                                     </div>
                                     <div className="terms-description-content">
                                         <p className='mb-0'>You shall not:</p>
-                                         <ul className='my-3'>
+                                        <ul className='my-3'>
                                             <li>Copy, modify, or distribute any part of the Platform without prior written consent from Feed My School.</li>
                                             <li>Engage in any activity that could damage, disable, or impair the functionality of the Platform.</li>
                                             <li>Use the Platform in any manner that could interfere with or disrupt other users' access or experience.</li>
@@ -131,9 +131,9 @@ function TermsAndCondition() {
                                     <div className="terms-description-content">
                                         <p>
                                             To the fullest extent permitted by applicable law, Feed My School shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from the use or inability to use the Platform, including but not limited to loss of data, profits, goodwill, or business opportunity, even if we have been advised of the possibility of such damages.
-                                            </p>
+                                        </p>
                                         <p className='mb-0'>
-In no event shall Feed My School’s liability exceed the amount you paid for the service or product in question.                                            </p>
+                                            In no event shall Feed My School’s liability exceed the amount you paid for the service or product in question.                                            </p>
                                     </div>
                                 </div>
                                 <div className="terms-description-list">
@@ -153,9 +153,9 @@ In no event shall Feed My School’s liability exceed the amount you paid for th
                                     <div className="terms-description-content">
                                         <p>
                                             Feed My School reserves the right, in its sole discretion, to suspend or terminate your access to the Platform, without notice, for any violation of these Terms, any unlawful conduct, or any other reason deemed necessary by Feed My School. You may also terminate your account at any time by contacting us.
-                                            </p>
+                                        </p>
                                         <p className='mb-0'>
-Upon termination, you must cease using the Platform, and any provisions that by their nature should survive termination shall remain in effect.                                            </p>
+                                            Upon termination, you must cease using the Platform, and any provisions that by their nature should survive termination shall remain in effect.                                            </p>
                                     </div>
                                 </div>
                                 <div className="terms-description-list">
