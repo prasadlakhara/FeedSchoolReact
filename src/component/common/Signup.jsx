@@ -9,7 +9,20 @@ function Signup() {
     }, 2000); // Simulate a delay of 2 seconds
   };
 
+  const togglePassword = (inputId, btn) => {
+  const input = document.getElementById(inputId);
+  const icon = btn.querySelector('i');
 
+  if (input.type === "password") {
+    input.type = "text";
+    icon.classList.remove('ph-eye-slash');
+    icon.classList.add('ph-eye');
+  } else {
+    input.type = "password";
+    icon.classList.remove('ph-eye');
+    icon.classList.add('ph-eye-slash');
+  }
+};
 
   return (
     <>
@@ -98,7 +111,7 @@ function Signup() {
                     <div className="mb-3 password-wrapper">
                       <label for="parentpasswordcreate" className="form-label">Password</label>
                       <input type="password" className="form-control" id="parentpasswordcreate" />
-                      <button type="button" className="toggle-password" onclick="togglePassword('parentpasswordcreate', this)">
+                      <button type="button" className="toggle-password" onClick={togglePassword('parentpasswordcreate', this)}>
                         <i className="ph ph-eye-slash"></i>
                       </button>
                     </div>
@@ -106,7 +119,7 @@ function Signup() {
                     <div className="mb-3 password-wrapper">
                       <label for="parentconfirmpassword" className="form-label">Confirm Password</label>
                       <input type="password" className="form-control" id="parentconfirmpassword" />
-                      <button type="button" className="toggle-password" onclick="togglePassword('parentconfirmpassword', this)">
+                      <button type="button" className="toggle-password" onClick={togglePassword('parentconfirmpassword', this)}>
                         <i className="ph ph-eye-slash"></i>
                       </button>
                     </div>
@@ -151,7 +164,7 @@ function Signup() {
                     <div className="mb-3 password-wrapper">
                       <label for="parentpasswordcreate" className="form-label">Password</label>
                       <input type="password" className="form-control" id="parentpasswordcreate" />
-                      <button type="button" className="toggle-password" onclick="togglePassword('parentpasswordcreate', this)">
+                      <button type="button" className="toggle-password" onClick={togglePassword('parentpasswordcreate', this)}>
                         <i className="ph ph-eye-slash"></i>
                       </button>
                     </div>
@@ -159,7 +172,7 @@ function Signup() {
                     <div className="mb-3 password-wrapper">
                       <label for="parentconfirmpassword" className="form-label">Confirm Password</label>
                       <input type="password" className="form-control" id="parentconfirmpassword" />
-                      <button type="button" className="toggle-password" onclick="togglePassword('parentconfirmpassword', this)">
+                      <button type="button" className="toggle-password" onClick={togglePassword('parentconfirmpassword', this)}>
                         <i className="ph ph-eye-slash"></i>
                       </button>
                     </div>
@@ -190,7 +203,7 @@ function Signup() {
                     <div className="mb-3 password-wrapper">
                       <label for="parentpasswordcreate" className="form-label">Password</label>
                       <input type="password" className="form-control" id="parentpasswordcreate" />
-                      <button type="button" className="toggle-password" onclick="togglePassword('parentpasswordcreate', this)">
+                      <button type="button" className="toggle-password" onClick={togglePassword('parentpasswordcreate', this)}>
                         <i className="ph ph-eye-slash"></i>
                       </button>
                     </div>
@@ -198,7 +211,7 @@ function Signup() {
                     <div className="mb-3 password-wrapper">
                       <label for="parentconfirmpassword" className="form-label">Confirm Password</label>
                       <input type="password" className="form-control" id="parentconfirmpassword" />
-                      <button type="button" className="toggle-password" onclick="togglePassword('parentconfirmpassword', this)">
+                      <button type="button" className="toggle-password" onClick={togglePassword('parentconfirmpassword', this)}>
                         <i className="ph ph-eye-slash"></i>
                       </button>
                     </div>
