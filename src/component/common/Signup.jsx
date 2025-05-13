@@ -9,9 +9,10 @@ function Signup() {
     }, 2000); // Simulate a delay of 2 seconds
   };
 
-  const togglePassword = (inputId, btn) => {
+  const togglePassword = (inputId, iconId) => {
   const input = document.getElementById(inputId);
-  const icon = btn.querySelector('i');
+
+  const icon = document.getElementById(iconId);
 
   if (input.type === "password") {
     input.type = "text";
@@ -111,16 +112,16 @@ function Signup() {
                     <div className="mb-3 password-wrapper">
                       <label for="parentpasswordcreate" className="form-label">Password</label>
                       <input type="password" className="form-control" id="parentpasswordcreate" />
-                      <button type="button" className="toggle-password" onClick={togglePassword('parentpasswordcreate', this)}>
-                        <i className="ph ph-eye-slash"></i>
+                      <button type="button" className="toggle-password" onClick={() => togglePassword('parentpasswordcreate', 'ParentPasswordIcon')}>
+                        <i className="ph ph-eye-slash" id="ParentPasswordIcon"></i>
                       </button>
                     </div>
 
                     <div className="mb-3 password-wrapper">
                       <label for="parentconfirmpassword" className="form-label">Confirm Password</label>
                       <input type="password" className="form-control" id="parentconfirmpassword" />
-                      <button type="button" className="toggle-password" onClick={togglePassword('parentconfirmpassword', this)}>
-                        <i className="ph ph-eye-slash"></i>
+                      <button type="button" className="toggle-password" onClick={ () =>togglePassword('parentconfirmpassword', 'ParentConfirmIcon')}>
+                        <i className="ph ph-eye-slash" id="ParentConfirmIcon"></i>
                       </button>
                     </div>
                   </form>
@@ -164,16 +165,16 @@ function Signup() {
                     <div className="mb-3 password-wrapper">
                       <label for="parentpasswordcreate" className="form-label">Password</label>
                       <input type="password" className="form-control" id="parentpasswordcreate" />
-                      <button type="button" className="toggle-password" onClick={togglePassword('parentpasswordcreate', this)}>
-                        <i className="ph ph-eye-slash"></i>
+                      <button type="button" className="toggle-password" onClick={() => togglePassword('parentpasswordcreate', 'ParentPasswordCreateIcon')}>
+                        <i className="ph ph-eye-slash" id="ParentPasswordCreateIcon"></i>
                       </button>
                     </div>
 
                     <div className="mb-3 password-wrapper">
                       <label for="parentconfirmpassword" className="form-label">Confirm Password</label>
                       <input type="password" className="form-control" id="parentconfirmpassword" />
-                      <button type="button" className="toggle-password" onClick={togglePassword('parentconfirmpassword', this)}>
-                        <i className="ph ph-eye-slash"></i>
+                      <button type="button" className="toggle-password" onClick={() => togglePassword('parentconfirmpassword', 'ParentConfirmIcon')}>
+                        <i className="ph ph-eye-slash" id="ParentConfirmIcon"></i>
                       </button>
                     </div>
                   </form>
@@ -203,16 +204,16 @@ function Signup() {
                     <div className="mb-3 password-wrapper">
                       <label for="parentpasswordcreate" className="form-label">Password</label>
                       <input type="password" className="form-control" id="parentpasswordcreate" />
-                      <button type="button" className="toggle-password" onClick={togglePassword('parentpasswordcreate', this)}>
-                        <i className="ph ph-eye-slash"></i>
+                      <button type="button" className="toggle-password" onClick={() => togglePassword('parentpasswordcreate', 'ParentPasswordCreatIcon')}>
+                        <i className="ph ph-eye-slash" id="ParentPasswordCreateIcon"></i>
                       </button>
                     </div>
 
                     <div className="mb-3 password-wrapper">
                       <label for="parentconfirmpassword" className="form-label">Confirm Password</label>
                       <input type="password" className="form-control" id="parentconfirmpassword" />
-                      <button type="button" className="toggle-password" onClick={togglePassword('parentconfirmpassword', this)}>
-                        <i className="ph ph-eye-slash"></i>
+                      <button type="button" className="toggle-password" onClick={() => togglePassword('parentconfirmpassword', 'ParentConfirmIcon')}>
+                        <i className="ph ph-eye-slash" id="ParentConfirmIcon"></i>
                       </button>
                     </div>
                   </form>
